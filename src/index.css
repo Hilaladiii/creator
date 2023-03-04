@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&family=Roboto+Mono:wght@600&family=Tilt+Neon&display=swap');
+body {
+  margin: 0;
+  font-family: "Poppins", monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(0, 0, 0, 0);
+  /* background: url("./Background/wpp1-01.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: 162px; */
+  min-height: 100vh;
+  display: flex;
+  
+}
+
+
+
+@media only screen and (min-width: 1920px) {
+  .body {
+    width: 90vw;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media only screen and (max-height: 1080px) {
+  .body {
+    height: 650px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

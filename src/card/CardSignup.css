@@ -1,0 +1,24 @@
+.CardSignup {
+    width: 26.4em;
+    background-color: white;
+    height: 48em;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: -5px 5px 7px 5px rgba(0, 0, 0, 0.25);
+  }
+  
+  @media only screen and (max-width: 620px) {
+    .card {
+      width: 90vw;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+  
+  @media only screen and (max-height: 670px) {
+    .card {
+      height: 650px;
+    }
+  }
+  

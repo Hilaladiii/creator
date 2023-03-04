@@ -1,0 +1,167 @@
+body{
+    background: url("../../Background/wpp-signup.png");
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 8em;
+}
+
+.card-signup{
+    margin-left: 8em;
+    margin-top: 3.4em;
+}
+
+.no-background{
+    background-color: rgba(0, 0, 0, 0);   
+}
+
+:target {
+    background-color: transparent !important;
+  }
+  
+
+.title-signup{
+    font-size: 1.6em;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 1.5em;
+    
+}
+
+.subtitle-signup{
+  color: black;
+  font-size: 0.8em;
+  font-family: "poppins", monospace;
+  margin-top: 0.1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-left: 3em;
+}
+
+.input-container-signup{
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2.05em; 
+}
+
+.fieldsub-signup{
+  color: black;
+  display: flex;
+  flex-direction: row;
+  font-size: 0.8em;
+  margin-left: 0.4em;
+  margin-top: 1.5em;
+    
+}
+
+.input-container-signup input{
+  width: 23em;
+  height: 3em;
+  margin: 0.5em auto;
+  padding: 1rem;
+  border-radius: 5px;
+  font-size: 0.8em;
+  text-align: left;
+  font-family: inherit;
+  outline: 0;
+  border: 0 ;
+  background-color: #EBEEFB;
+}
+
+.in-signup{
+    margin-right: 100em;
+}
+
+.err-msg{
+    display: flex;
+    flex-direction: row;
+    margin-left: 55px;
+    font-size: 10px;
+    margin-bottom: 15px;
+    color: red;
+}
+
+
+.sign-button{
+    margin-top: 2em;
+    margin-left: 2.5em;
+    display: block;
+    width: 23em;
+    height: 3em;
+  
+    border-radius: 0.5em;
+    outline: 0;
+    font-size: 0.8em;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    background-color: #3353D3;
+    color: #f5f5f4;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.sign-button:hover{
+    
+    background-color: #60a5fa;
+}
+
+.forgot-link-signup{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8em;
+    justify-content: left;
+    margin-left: 0.5em;
+    transition: 0.3s;
+    color:#5C75DC;    
+}
+
+.forgot-link-signup:hover{
+    color: #93c5fd;
+}
+.dont-account-signup{
+  color: black;
+  font-size: 0.8em;
+  margin-top: 0.8em;
+}
+.dont-account-link-signup{
+  margin-left: 5px;
+  font-size: 1em;   
+  transition: 0.3s;
+  color: #5C75DC;
+}
+.dont-account-link-signup:hover{
+    color: #93c5fd;    
+}
+
+.top-signup{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4em;
+    margin-left: 10.4em;
+}
+
+
+.creator-top-signup{    
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2em;
+  justify-content: left;     
+    
+}
+
+.title-top-signup{    
+  margin-left: 1em;
+  margin-top:  0.8em;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1em;    
+   
+}

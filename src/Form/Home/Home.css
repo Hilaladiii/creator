@@ -1,0 +1,85 @@
+body{
+    background-color: #FFD159;
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 8em;
+}
+
+.btn-log-sign{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+    margin-left: 65em;
+    gap: 2em;
+}
+
+
+.btn-login{
+    font-size: 0.9em;
+    font-weight: 600;
+    margin-top: 0.4em;
+    color: #3353D3;
+    border: none;
+    background-color: white;
+}
+
+.btn-sign{
+    width: 6em;
+    height: 3em;    
+    font-family: inherit;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.4em;
+    background: #3353D3;
+    color: white;
+
+}
+
+.header-home{
+    display: flex;
+    flex-direction: row;    
+    margin-top: 1em;
+    margin-left: 7em;
+    
+}
+
+.logo-creat{
+    color: #901616;
+}
+
+.logo-or{
+    color: #1A2A6A;   
+}
+
+.search-home{
+    margin-top: 0.7em;
+    margin-left: 5em;  
+    padding: 1em;  
+    width: 23em;
+    height: 2.5em;
+    border-radius: 0.5em;
+    border: none;
+    background: #CACDD0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    color: #4A4F52;
+}
+
+.categories{        
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    margin-left: 3.4em;
+}
+
+.categories button{
+    font-size: 1em;
+    font-weight: 500;
+    border-radius:1em;
+    border: none;
+    background-color: white;
+    font-family: inherit;
+
+}
